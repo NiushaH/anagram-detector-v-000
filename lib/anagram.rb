@@ -15,7 +15,7 @@ class Anagram
 #Yes the word initialized is the word that is being tested against. 
 
   def initialize(word_to_analyze)
-    @word_to_analyze = self.new 
+    @word_to_analyze = word_to_analyze
   end
   
   def match(does_this_word_have_an_anagram_here)
