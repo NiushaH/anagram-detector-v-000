@@ -23,7 +23,7 @@ class Anagram
     #check if both words have same number of letters
 
     does_this_word_have_an_anagram_here.each do |word|    
-      if word.count = anagram_instance.count
+      if word.count = does_this_word_have_an_anagram_here.count
 
           #split the words into array of letters  
           array_of_words_letters = word.split("").sort
