@@ -1,6 +1,6 @@
-      if word.split("").sort == self.word_to_analyze.split("").sort 
-        word 
-      end
+      # if word.split("").sort == self.word_to_analyze.split("").sort 
+      #   word 
+      # end
 
 
 # listen = Anagram.new("listen")
